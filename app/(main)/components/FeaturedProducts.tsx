@@ -42,7 +42,7 @@ export default function FeaturedProducts({ products }: FeaturedProductsProps) {
                 {/* Product Image */}
                 <div className="relative aspect-square overflow-hidden">
                   <img
-                    src={product.images[0]}
+                    src={product.image}
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -62,7 +62,7 @@ export default function FeaturedProducts({ products }: FeaturedProductsProps) {
                   )}
 
                   {/* Quick Actions */}
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
+                  <div className="absolute inset-0  group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 space-x-2">
                       <button
                         onClick={() => handleAddToCart(product)}

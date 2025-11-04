@@ -7,7 +7,7 @@ export default function HeroSection() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden  from-blue-50 via-white to-purple-50">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
@@ -30,7 +30,7 @@ export default function HeroSection() {
               
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
                 Discover Your
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                <span className="block text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600">
                   Perfect Style
                 </span>
               </h1>
@@ -86,14 +86,14 @@ export default function HeroSection() {
           {/* Hero Image */}
           <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl transform rotate-6 scale-105 opacity-20"></div>
+              <div className="absolute inset-0 bg-linear-to-r from-blue-400 to-purple-500 rounded-3xl transform rotate-6 scale-105 opacity-20"></div>
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop"
                   alt="Shopping Experience"
                   className="w-full h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent"></div>
                 
                 {/* Floating Cards */}
                 <div className="absolute top-4 right-4 bg-white rounded-lg shadow-lg p-3 animate-bounce">
