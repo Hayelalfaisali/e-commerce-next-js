@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Navbar from "./components/Navbar";
-import { AuthProvider } from "./contexts/AuthContext";
+import "../globals.css";
+import Navbar from "../components/Navbar";
+import { AuthProvider } from "../contexts/AuthContext";
 
 export const metadata: Metadata = {
   title: "ShopHub - Modern E-commerce Platform",
