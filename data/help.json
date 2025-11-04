@@ -1,0 +1,176 @@
+{
+  "helpTopics": {
+    "getting-started": {
+      "title": "Getting Started",
+      "description": "Learn the basics of using ShopHub",
+      "content": "Welcome to ShopHub! This guide will help you get started with our platform.",
+      "sections": [
+        {
+          "title": "Creating an Account",
+          "content": "To create an account, click the 'Register' button and fill out the required information."
+        },
+        {
+          "title": "Browsing Products",
+          "content": "Use our navigation menu to browse different product categories or use the search function."
+        },
+        {
+          "title": "Making Your First Purchase",
+          "content": "Add items to your cart and proceed to checkout when you're ready to purchase."
+        }
+      ]
+    },
+    "orders": {
+      "title": "Orders",
+      "description": "Everything about managing your orders",
+      "content": "Learn how to track, modify, and manage your orders.",
+      "subsections": {
+        "tracking": {
+          "title": "Order Tracking",
+          "description": "How to track your orders",
+          "content": "You can track your orders by visiting the 'My Orders' section in your account.",
+          "steps": [
+            "Log into your account",
+            "Navigate to 'My Orders'",
+            "Click on the order you want to track",
+            "View tracking information and delivery status"
+          ]
+        },
+        "cancellation": {
+          "title": "Order Cancellation",
+          "description": "How to cancel your orders",
+          "content": "Orders can be cancelled within 24 hours of placement if they haven't been shipped yet.",
+          "steps": [
+            "Go to 'My Orders'",
+            "Find the order you want to cancel",
+            "Click 'Cancel Order' if available",
+            "Confirm cancellation"
+          ]
+        },
+        "returns": {
+          "title": "Returns & Refunds",
+          "description": "Our return and refund policy",
+          "content": "We offer a 30-day return policy for most items.",
+          "policy": {
+            "returnWindow": "30 days",
+            "condition": "Items must be in original condition",
+            "refundTime": "5-7 business days",
+            "shippingCost": "Customer responsible for return shipping"
+          }
+        }
+      }
+    },
+    "shipping": {
+      "title": "Shipping",
+      "description": "Shipping information and policies",
+      "content": "Learn about our shipping options and delivery times.",
+      "subsections": {
+        "options": {
+          "title": "Shipping Options",
+          "description": "Available shipping methods",
+          "content": "We offer multiple shipping options to meet your needs.",
+          "methods": [
+            {
+              "name": "Standard Shipping",
+              "time": "5-7 business days",
+              "cost": "$5.99",
+              "description": "Reliable and affordable shipping option"
+            },
+            {
+              "name": "Express Shipping",
+              "time": "2-3 business days",
+              "cost": "$12.99",
+              "description": "Faster delivery for urgent orders"
+            },
+            {
+              "name": "Overnight Shipping",
+              "time": "1 business day",
+              "cost": "$24.99",
+              "description": "Next-day delivery for immediate needs"
+            }
+          ]
+        },
+        "returns": {
+          "title": "Return Shipping",
+          "description": "How to return items",
+          "content": "Instructions for returning items to our warehouse.",
+          "subsections": {
+            "policy": {
+              "title": "Return Policy",
+              "description": "Our complete return policy",
+              "content": "Detailed information about returns, exchanges, and refunds.",
+              "rules": [
+                "Items must be returned within 30 days",
+                "Items must be in original packaging",
+                "Some items are not eligible for return",
+                "Return shipping costs are customer's responsibility"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "account": {
+      "title": "Account Management",
+      "description": "Managing your ShopHub account",
+      "content": "Learn how to manage your account settings and preferences.",
+      "sections": [
+        {
+          "title": "Profile Settings",
+          "content": "Update your personal information, shipping addresses, and payment methods."
+        },
+        {
+          "title": "Privacy Settings",
+          "content": "Control your privacy preferences and notification settings."
+        },
+        {
+          "title": "Order History",
+          "content": "View and manage your past orders and purchases."
+        }
+      ]
+    },
+    "payment": {
+      "title": "Payment",
+      "description": "Payment methods and billing information",
+      "content": "Information about accepted payment methods and billing.",
+      "acceptedMethods": [
+        "Credit Cards (Visa, MasterCard, American Express)",
+        "PayPal",
+        "Apple Pay",
+        "Google Pay",
+        "Shop Pay"
+      ],
+      "security": {
+        "title": "Payment Security",
+        "content": "We use industry-standard encryption to protect your payment information.",
+        "features": [
+          "SSL encryption",
+          "PCI DSS compliance",
+          "Fraud detection",
+          "Secure tokenization"
+        ]
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping takes 5-7 business days, express shipping takes 2-3 business days, and overnight shipping delivers in 1 business day."
+    },
+    {
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for most items. Items must be in original condition and packaging."
+    },
+    {
+      "question": "Do you ship internationally?",
+      "answer": "Currently, we only ship within the United States. International shipping may be available in the future."
+    },
+    {
+      "question": "How can I track my order?",
+      "answer": "You can track your order by logging into your account and visiting the 'My Orders' section."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept major credit cards, PayPal, Apple Pay, Google Pay, and Shop Pay."
+    }
+  ]
+}

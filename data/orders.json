@@ -1,0 +1,212 @@
+{
+  "orders": [
+    {
+      "id": "ORD-001",
+      "userId": "1",
+      "status": "delivered",
+      "orderDate": "2024-10-15T14:30:00Z",
+      "deliveryDate": "2024-10-18T10:00:00Z",
+      "total": 179.98,
+      "subtotal": 159.98,
+      "tax": 12.80,
+      "shipping": 7.20,
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "paid",
+      "items": [
+        {
+          "productId": "1",
+          "productName": "Wireless Bluetooth Headphones",
+          "quantity": 1,
+          "price": 99.99,
+          "color": "black",
+          "size": null
+        },
+        {
+          "productId": "3",
+          "productName": "Premium Cotton T-Shirt",
+          "quantity": 2,
+          "price": 29.99,
+          "color": "white",
+          "size": "m"
+        }
+      ],
+      "trackingNumber": "TRK123456789",
+      "notes": "Leave at front door"
+    },
+    {
+      "id": "ORD-002",
+      "userId": "2",
+      "status": "processing",
+      "orderDate": "2024-11-01T09:15:00Z",
+      "deliveryDate": null,
+      "total": 139.98,
+      "subtotal": 129.99,
+      "tax": 9.99,
+      "shipping": 0.00,
+      "shippingAddress": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90210",
+        "country": "USA"
+      },
+      "paymentMethod": "paypal",
+      "paymentStatus": "paid",
+      "items": [
+        {
+          "productId": "6",
+          "productName": "Professional Running Shoes",
+          "quantity": 1,
+          "price": 129.99,
+          "color": "blue",
+          "size": "9"
+        }
+      ],
+      "trackingNumber": null,
+      "notes": ""
+    },
+    {
+      "id": "ORD-003",
+      "userId": "1",
+      "status": "shipped",
+      "orderDate": "2024-11-02T16:45:00Z",
+      "deliveryDate": null,
+      "total": 269.98,
+      "subtotal": 249.99,
+      "tax": 19.99,
+      "shipping": 0.00,
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "paid",
+      "items": [
+        {
+          "productId": "2",
+          "productName": "Smart Fitness Watch",
+          "quantity": 1,
+          "price": 249.99,
+          "color": "black",
+          "size": "medium"
+        }
+      ],
+      "trackingNumber": "TRK987654321",
+      "notes": "Gift wrapping requested"
+    },
+    {
+      "id": "ORD-004",
+      "userId": "4",
+      "status": "cancelled",
+      "orderDate": "2024-10-28T11:20:00Z",
+      "deliveryDate": null,
+      "total": 89.99,
+      "subtotal": 89.99,
+      "tax": 0.00,
+      "shipping": 0.00,
+      "shippingAddress": {
+        "street": "321 Pine St",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "refunded",
+      "items": [
+        {
+          "productId": "4",
+          "productName": "Designer Jeans",
+          "quantity": 1,
+          "price": 89.99,
+          "color": "blue",
+          "size": "32"
+        }
+      ],
+      "trackingNumber": null,
+      "notes": "Customer requested cancellation"
+    },
+    {
+      "id": "ORD-005",
+      "userId": "2",
+      "status": "pending",
+      "orderDate": "2024-11-04T08:30:00Z",
+      "deliveryDate": null,
+      "total": 199.98,
+      "subtotal": 179.98,
+      "tax": 14.40,
+      "shipping": 5.60,
+      "shippingAddress": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90210",
+        "country": "USA"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "items": [
+        {
+          "productId": "5",
+          "productName": "Smart Home Security Camera",
+          "quantity": 1,
+          "price": 149.99,
+          "color": "white",
+          "size": null
+        },
+        {
+          "productId": "3",
+          "productName": "Premium Cotton T-Shirt",
+          "quantity": 1,
+          "price": 29.99,
+          "color": "black",
+          "size": "s"
+        }
+      ],
+      "trackingNumber": null,
+      "notes": ""
+    }
+  ],
+  "orderStatuses": [
+    {
+      "status": "pending",
+      "label": "Pending Payment",
+      "description": "Order is waiting for payment confirmation",
+      "color": "yellow"
+    },
+    {
+      "status": "processing",
+      "label": "Processing",
+      "description": "Order is being prepared for shipment",
+      "color": "blue"
+    },
+    {
+      "status": "shipped",
+      "label": "Shipped",
+      "description": "Order has been shipped and is on the way",
+      "color": "purple"
+    },
+    {
+      "status": "delivered",
+      "label": "Delivered",
+      "description": "Order has been successfully delivered",
+      "color": "green"
+    },
+    {
+      "status": "cancelled",
+      "label": "Cancelled",
+      "description": "Order has been cancelled",
+      "color": "red"
+    }
+  ]
+}

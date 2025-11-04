@@ -1,0 +1,146 @@
+{
+  "images": [
+    {
+      "id": "1",
+      "title": "Modern Living Room",
+      "description": "Beautiful modern living room with minimalist design",
+      "src": "/images/gallery/living-room-1.jpg",
+      "category": "home",
+      "tags": ["interior", "modern", "living-room", "furniture"],
+      "photographer": "Sarah Johnson",
+      "location": "New York, USA",
+      "uploadDate": "2024-10-15",
+      "likes": 245,
+      "views": 1250
+    },
+    {
+      "id": "2",
+      "title": "Sunset Mountain View",
+      "description": "Breathtaking sunset over mountain peaks",
+      "src": "/images/gallery/mountain-sunset.jpg",
+      "category": "nature",
+      "tags": ["sunset", "mountains", "landscape", "nature"],
+      "photographer": "Mike Chen",
+      "location": "Colorado, USA",
+      "uploadDate": "2024-10-12",
+      "likes": 892,
+      "views": 3420
+    },
+    {
+      "id": "3",
+      "title": "Urban Street Art",
+      "description": "Colorful street art mural in downtown district",
+      "src": "/images/gallery/street-art.jpg",
+      "category": "art",
+      "tags": ["street-art", "urban", "colorful", "mural"],
+      "photographer": "Alex Rivera",
+      "location": "Los Angeles, USA",
+      "uploadDate": "2024-10-08",
+      "likes": 156,
+      "views": 890
+    },
+    {
+      "id": "4",
+      "title": "Ocean Waves",
+      "description": "Powerful ocean waves crashing against rocks",
+      "src": "/images/gallery/ocean-waves.jpg",
+      "category": "nature",
+      "tags": ["ocean", "waves", "seascape", "water"],
+      "photographer": "Emma Davis",
+      "location": "California, USA",
+      "uploadDate": "2024-10-05",
+      "likes": 567,
+      "views": 2100
+    },
+    {
+      "id": "5",
+      "title": "City Skyline at Night",
+      "description": "Illuminated city skyline with skyscrapers",
+      "src": "/images/gallery/city-night.jpg",
+      "category": "urban",
+      "tags": ["city", "skyline", "night", "lights", "urban"],
+      "photographer": "David Kim",
+      "location": "Chicago, USA",
+      "uploadDate": "2024-10-01",
+      "likes": 423,
+      "views": 1890
+    },
+    {
+      "id": "6",
+      "title": "Forest Path",
+      "description": "Peaceful forest path surrounded by tall trees",
+      "src": "/images/gallery/forest-path.jpg",
+      "category": "nature",
+      "tags": ["forest", "path", "trees", "peaceful", "hiking"],
+      "photographer": "Lisa Thompson",
+      "location": "Oregon, USA",
+      "uploadDate": "2024-09-28",
+      "likes": 334,
+      "views": 1456
+    },
+    {
+      "id": "7",
+      "title": "Vintage Coffee Shop",
+      "description": "Cozy vintage coffee shop interior with warm lighting",
+      "src": "/images/gallery/coffee-shop.jpg",
+      "category": "lifestyle",
+      "tags": ["coffee", "vintage", "cozy", "interior", "cafe"],
+      "photographer": "Tom Wilson",
+      "location": "Portland, USA",
+      "uploadDate": "2024-09-25",
+      "likes": 678,
+      "views": 2340
+    },
+    {
+      "id": "8",
+      "title": "Abstract Architecture",
+      "description": "Modern building with unique geometric design",
+      "src": "/images/gallery/abstract-building.jpg",
+      "category": "architecture",
+      "tags": ["architecture", "modern", "geometric", "abstract"],
+      "photographer": "Rachel Green",
+      "location": "Miami, USA",
+      "uploadDate": "2024-09-20",
+      "likes": 289,
+      "views": 1123
+    }
+  ],
+  "categories": [
+    {
+      "id": "nature",
+      "name": "Nature",
+      "description": "Beautiful landscapes and natural scenes",
+      "count": 3
+    },
+    {
+      "id": "urban",
+      "name": "Urban",
+      "description": "City life and urban environments",
+      "count": 1
+    },
+    {
+      "id": "art",
+      "name": "Art",
+      "description": "Artistic expressions and creative works",
+      "count": 1
+    },
+    {
+      "id": "home",
+      "name": "Home & Interior",
+      "description": "Interior design and home decoration",
+      "count": 1
+    },
+    {
+      "id": "lifestyle",
+      "name": "Lifestyle",
+      "description": "Daily life and lifestyle photography",
+      "count": 1
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "description": "Buildings and architectural designs",
+      "count": 1
+    }
+  ]
+}

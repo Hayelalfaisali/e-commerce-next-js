@@ -1,0 +1,259 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "description": "Latest gadgets and electronic devices",
+      "image": "/images/categories/electronics.jpg"
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "description": "Fashion and apparel for all occasions",
+      "image": "/images/categories/clothing.jpg"
+    },
+    {
+      "id": "home",
+      "name": "Home & Garden",
+      "description": "Everything for your home and garden",
+      "image": "/images/categories/home.jpg"
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Outdoors",
+      "description": "Sports equipment and outdoor gear",
+      "image": "/images/categories/sports.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Bluetooth Headphones",
+      "category": "electronics",
+      "price": 99.99,
+      "originalPrice": 129.99,
+      "description": "Premium wireless headphones with noise cancellation and 30-hour battery life.",
+      "image": "/images/products/headphones-1.jpg",
+      "images": [
+        "/images/products/headphones-1.jpg",
+        "/images/products/headphones-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 25,
+      "rating": 4.5,
+      "reviewCount": 128,
+      "features": [
+        "Active Noise Cancellation",
+        "30-hour battery life",
+        "Quick charge - 5 min for 2 hours",
+        "Premium sound quality"
+      ],
+      "variants": {
+        "colors": ["black", "white", "blue"],
+        "sizes": []
+      },
+      "tags": ["wireless", "bluetooth", "headphones", "audio"]
+    },
+    {
+      "id": "2",
+      "name": "Smart Fitness Watch",
+      "category": "electronics",
+      "price": 249.99,
+      "originalPrice": 299.99,
+      "description": "Advanced fitness tracking with heart rate monitor, GPS, and 7-day battery life.",
+      "image": "/images/products/watch-1.jpg",
+      "images": [
+        "/images/products/watch-1.jpg",
+        "/images/products/watch-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 15,
+      "rating": 4.7,
+      "reviewCount": 89,
+      "features": [
+        "Heart rate monitoring",
+        "Built-in GPS",
+        "7-day battery life",
+        "Water resistant",
+        "Sleep tracking"
+      ],
+      "variants": {
+        "colors": ["black", "silver", "gold"],
+        "sizes": ["small", "medium", "large"]
+      },
+      "tags": ["smartwatch", "fitness", "health", "gps"]
+    },
+    {
+      "id": "3",
+      "name": "Premium Cotton T-Shirt",
+      "category": "clothing",
+      "price": 29.99,
+      "originalPrice": 39.99,
+      "description": "Soft, comfortable 100% organic cotton t-shirt perfect for everyday wear.",
+      "image": "/images/products/tshirt-1.jpg",
+      "images": [
+        "/images/products/tshirt-1.jpg",
+        "/images/products/tshirt-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 50,
+      "rating": 4.3,
+      "reviewCount": 234,
+      "features": [
+        "100% organic cotton",
+        "Pre-shrunk fabric",
+        "Comfortable fit",
+        "Machine washable"
+      ],
+      "variants": {
+        "colors": ["white", "black", "gray", "navy", "red"],
+        "sizes": ["xs", "s", "m", "l", "xl", "xxl"]
+      },
+      "tags": ["cotton", "tshirt", "casual", "organic"]
+    },
+    {
+      "id": "4",
+      "name": "Designer Jeans",
+      "category": "clothing",
+      "price": 89.99,
+      "originalPrice": 120.00,
+      "description": "Premium denim jeans with perfect fit and modern styling.",
+      "image": "/images/products/jeans-1.jpg",
+      "images": [
+        "/images/products/jeans-1.jpg",
+        "/images/products/jeans-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 30,
+      "rating": 4.6,
+      "reviewCount": 156,
+      "features": [
+        "Premium denim fabric",
+        "Comfortable stretch",
+        "Modern slim fit",
+        "Durable construction"
+      ],
+      "variants": {
+        "colors": ["blue", "black", "gray"],
+        "sizes": ["28", "30", "32", "34", "36", "38", "40"]
+      },
+      "tags": ["jeans", "denim", "pants", "fashion"]
+    },
+    {
+      "id": "5",
+      "name": "Smart Home Security Camera",
+      "category": "home",
+      "price": 149.99,
+      "originalPrice": 199.99,
+      "description": "1080p HD security camera with night vision, motion detection, and mobile app control.",
+      "image": "/images/products/camera-1.jpg",
+      "images": [
+        "/images/products/camera-1.jpg",
+        "/images/products/camera-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 20,
+      "rating": 4.4,
+      "reviewCount": 67,
+      "features": [
+        "1080p HD video",
+        "Night vision",
+        "Motion detection",
+        "Mobile app control",
+        "Cloud storage"
+      ],
+      "variants": {
+        "colors": ["white", "black"],
+        "sizes": []
+      },
+      "tags": ["security", "camera", "smart-home", "surveillance"]
+    },
+    {
+      "id": "6",
+      "name": "Professional Running Shoes",
+      "category": "sports",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "High-performance running shoes with advanced cushioning and breathable design.",
+      "image": "/images/products/shoes-1.jpg",
+      "images": [
+        "/images/products/shoes-1.jpg",
+        "/images/products/shoes-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 40,
+      "rating": 4.8,
+      "reviewCount": 312,
+      "features": [
+        "Advanced cushioning",
+        "Breathable mesh upper",
+        "Lightweight design",
+        "Durable outsole",
+        "Arch support"
+      ],
+      "variants": {
+        "colors": ["black", "white", "blue", "red"],
+        "sizes": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12"]
+      },
+      "tags": ["running", "shoes", "sports", "fitness"]
+    },
+    {
+      "id": "7",
+      "name": "Wireless Gaming Mouse",
+      "category": "electronics",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "High-precision wireless gaming mouse with RGB lighting and programmable buttons.",
+      "image": "/images/products/mouse-1.jpg",
+      "images": [
+        "/images/products/mouse-1.jpg",
+        "/images/products/mouse-1-alt.jpg"
+      ],
+      "inStock": false,
+      "stockCount": 0,
+      "rating": 4.2,
+      "reviewCount": 45,
+      "features": [
+        "High-precision sensor",
+        "RGB lighting",
+        "Programmable buttons",
+        "Wireless connectivity",
+        "Long battery life"
+      ],
+      "variants": {
+        "colors": ["black", "white"],
+        "sizes": []
+      },
+      "tags": ["gaming", "mouse", "wireless", "rgb"]
+    },
+    {
+      "id": "8",
+      "name": "Yoga Mat Premium",
+      "category": "sports",
+      "price": 49.99,
+      "originalPrice": 69.99,
+      "description": "Non-slip premium yoga mat with extra cushioning and eco-friendly materials.",
+      "image": "/images/products/yoga-mat-1.jpg",
+      "images": [
+        "/images/products/yoga-mat-1.jpg",
+        "/images/products/yoga-mat-1-alt.jpg"
+      ],
+      "inStock": true,
+      "stockCount": 35,
+      "rating": 4.6,
+      "reviewCount": 178,
+      "features": [
+        "Non-slip surface",
+        "Extra cushioning",
+        "Eco-friendly materials",
+        "Lightweight",
+        "Easy to clean"
+      ],
+      "variants": {
+        "colors": ["purple", "blue", "green", "pink", "black"],
+        "sizes": ["standard", "extra-long"]
+      },
+      "tags": ["yoga", "fitness", "mat", "exercise"]
+    }
+  ]
+}

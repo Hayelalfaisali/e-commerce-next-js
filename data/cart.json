@@ -1,0 +1,188 @@
+{
+  "sampleCart": {
+    "id": "cart-user-1",
+    "userId": "1",
+    "items": [
+      {
+        "id": "cart-item-1",
+        "productId": "1",
+        "productName": "Wireless Bluetooth Headphones",
+        "price": 99.99,
+        "originalPrice": 129.99,
+        "quantity": 1,
+        "selectedVariants": {
+          "color": "black",
+          "size": null
+        },
+        "image": "/images/products/headphones-1.jpg",
+        "inStock": true,
+        "maxQuantity": 25,
+        "addedAt": "2024-11-04T10:30:00Z"
+      },
+      {
+        "id": "cart-item-2",
+        "productId": "3",
+        "productName": "Premium Cotton T-Shirt",
+        "price": 29.99,
+        "originalPrice": 39.99,
+        "quantity": 2,
+        "selectedVariants": {
+          "color": "white",
+          "size": "m"
+        },
+        "image": "/images/products/tshirt-1.jpg",
+        "inStock": true,
+        "maxQuantity": 50,
+        "addedAt": "2024-11-04T11:15:00Z"
+      },
+      {
+        "id": "cart-item-3",
+        "productId": "6",
+        "productName": "Professional Running Shoes",
+        "price": 129.99,
+        "originalPrice": 159.99,
+        "quantity": 1,
+        "selectedVariants": {
+          "color": "blue",
+          "size": "9"
+        },
+        "image": "/images/products/shoes-1.jpg",
+        "inStock": true,
+        "maxQuantity": 40,
+        "addedAt": "2024-11-04T12:00:00Z"
+      }
+    ],
+    "summary": {
+      "subtotal": 189.97,
+      "originalSubtotal": 229.97,
+      "savings": 40.00,
+      "tax": 15.20,
+      "shipping": 7.99,
+      "total": 213.16,
+      "itemCount": 4
+    },
+    "shippingOptions": [
+      {
+        "id": "standard",
+        "name": "Standard Shipping",
+        "description": "5-7 business days",
+        "price": 7.99,
+        "estimatedDays": "5-7"
+      },
+      {
+        "id": "express",
+        "name": "Express Shipping",
+        "description": "2-3 business days",
+        "price": 12.99,
+        "estimatedDays": "2-3"
+      },
+      {
+        "id": "overnight",
+        "name": "Overnight Shipping",
+        "description": "1 business day",
+        "price": 24.99,
+        "estimatedDays": "1"
+      }
+    ],
+    "selectedShipping": "standard",
+    "promoCode": null,
+    "appliedDiscount": null,
+    "lastUpdated": "2024-11-04T12:00:00Z"
+  },
+  "emptyCart": {
+    "id": "cart-empty",
+    "userId": null,
+    "items": [],
+    "summary": {
+      "subtotal": 0,
+      "originalSubtotal": 0,
+      "savings": 0,
+      "tax": 0,
+      "shipping": 0,
+      "total": 0,
+      "itemCount": 0
+    },
+    "shippingOptions": [],
+    "selectedShipping": null,
+    "promoCode": null,
+    "appliedDiscount": null,
+    "lastUpdated": null
+  },
+  "promoCodes": [
+    {
+      "code": "WELCOME10",
+      "description": "10% off your first order",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderValue": 50,
+      "maxDiscount": 25,
+      "validUntil": "2024-12-31",
+      "isActive": true,
+      "usageLimit": 1,
+      "applicableCategories": ["all"]
+    },
+    {
+      "code": "FREESHIP",
+      "description": "Free shipping on orders over $75",
+      "discountType": "shipping",
+      "discountValue": 0,
+      "minOrderValue": 75,
+      "maxDiscount": null,
+      "validUntil": "2024-11-30",
+      "isActive": true,
+      "usageLimit": null,
+      "applicableCategories": ["all"]
+    },
+    {
+      "code": "ELECTRONICS20",
+      "description": "20% off electronics",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minOrderValue": 100,
+      "maxDiscount": 50,
+      "validUntil": "2024-11-15",
+      "isActive": true,
+      "usageLimit": null,
+      "applicableCategories": ["electronics"]
+    }
+  ],
+  "recentlyViewed": [
+    {
+      "productId": "2",
+      "productName": "Smart Fitness Watch",
+      "price": 249.99,
+      "image": "/images/products/watch-1.jpg",
+      "viewedAt": "2024-11-04T11:45:00Z"
+    },
+    {
+      "productId": "5",
+      "productName": "Smart Home Security Camera",
+      "price": 149.99,
+      "image": "/images/products/camera-1.jpg",
+      "viewedAt": "2024-11-04T11:30:00Z"
+    },
+    {
+      "productId": "8",
+      "productName": "Yoga Mat Premium",
+      "price": 49.99,
+      "image": "/images/products/yoga-mat-1.jpg",
+      "viewedAt": "2024-11-04T10:15:00Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "productId": "4",
+      "productName": "Designer Jeans",
+      "price": 89.99,
+      "image": "/images/products/jeans-1.jpg",
+      "reason": "Frequently bought together"
+    },
+    {
+      "productId": "2",
+      "productName": "Smart Fitness Watch",
+      "price": 249.99,
+      "image": "/images/products/watch-1.jpg",
+      "reason": "Customers also viewed"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "dashboard": {
+    "overview": {
+      "totalRevenue": 45678.90,
+      "totalOrders": 1234,
+      "totalCustomers": 567,
+      "averageOrderValue": 89.45,
+      "conversionRate": 3.2,
+      "returningCustomers": 42.5
+    },
+    "revenueData": [
+      { "month": "Jan", "revenue": 3200, "orders": 89 },
+      { "month": "Feb", "revenue": 3800, "orders": 105 },
+      { "month": "Mar", "revenue": 4200, "orders": 118 },
+      { "month": "Apr", "revenue": 3900, "orders": 98 },
+      { "month": "May", "revenue": 4500, "orders": 125 },
+      { "month": "Jun", "revenue": 5100, "orders": 142 },
+      { "month": "Jul", "revenue": 4800, "orders": 135 },
+      { "month": "Aug", "revenue": 5200, "orders": 148 },
+      { "month": "Sep", "revenue": 4700, "orders": 132 },
+      { "month": "Oct", "revenue": 5500, "orders": 156 },
+      { "month": "Nov", "revenue": 4900, "orders": 138 },
+      { "month": "Dec", "revenue": 5800, "orders": 165 }
+    ],
+    "topProducts": [
+      {
+        "productId": "6",
+        "name": "Professional Running Shoes",
+        "sales": 89,
+        "revenue": 11571.11
+      },
+      {
+        "productId": "1",
+        "name": "Wireless Bluetooth Headphones",
+        "sales": 67,
+        "revenue": 6699.33
+      },
+      {
+        "productId": "3",
+        "name": "Premium Cotton T-Shirt",
+        "sales": 156,
+        "revenue": 4678.44
+      },
+      {
+        "productId": "2",
+        "name": "Smart Fitness Watch",
+        "sales": 23,
+        "revenue": 5749.77
+      },
+      {
+        "productId": "4",
+        "name": "Designer Jeans",
+        "sales": 45,
+        "revenue": 4049.55
+      }
+    ],
+    "categoryPerformance": [
+      {
+        "category": "electronics",
+        "revenue": 18920.21,
+        "orders": 179,
+        "growth": 12.5
+      },
+      {
+        "category": "clothing",
+        "revenue": 12456.78,
+        "orders": 234,
+        "growth": 8.3
+      },
+      {
+        "category": "sports",
+        "revenue": 9876.54,
+        "orders": 145,
+        "growth": 15.7
+      },
+      {
+        "category": "home",
+        "revenue": 4425.37,
+        "orders": 67,
+        "growth": 6.2
+      }
+    ],
+    "customerMetrics": {
+      "newCustomers": 89,
+      "returningCustomers": 145,
+      "customerLifetimeValue": 234.56,
+      "churnRate": 5.2,
+      "customerSatisfaction": 4.3
+    },
+    "trafficSources": [
+      { "source": "Direct", "visitors": 2340, "percentage": 35.2 },
+      { "source": "Google", "visitors": 1890, "percentage": 28.4 },
+      { "source": "Social Media", "visitors": 1234, "percentage": 18.6 },
+      { "source": "Email", "visitors": 789, "percentage": 11.9 },
+      { "source": "Referral", "visitors": 389, "percentage": 5.9 }
+    ]
+  },
+  "inventory": {
+    "totalProducts": 156,
+    "lowStockItems": 12,
+    "outOfStockItems": 3,
+    "totalValue": 89456.78,
+    "categories": [
+      {
+        "name": "Electronics",
+        "count": 45,
+        "value": 34567.89,
+        "lowStock": 5
+      },
+      {
+        "name": "Clothing",
+        "count": 67,
+        "value": 23456.78,
+        "lowStock": 4
+      },
+      {
+        "name": "Sports",
+        "count": 28,
+        "value": 18765.43,
+        "lowStock": 2
+      },
+      {
+        "name": "Home",
+        "count": 16,
+        "value": 12666.68,
+        "lowStock": 1
+      }
+    ],
+    "recentActivity": [
+      {
+        "action": "stock_update",
+        "productId": "1",
+        "productName": "Wireless Bluetooth Headphones",
+        "change": -5,
+        "newStock": 25,
+        "timestamp": "2024-11-04T10:30:00Z"
+      },
+      {
+        "action": "new_product",
+        "productId": "9",
+        "productName": "Gaming Keyboard",
+        "initialStock": 50,
+        "timestamp": "2024-11-03T15:45:00Z"
+      },
+      {
+        "action": "stock_alert",
+        "productId": "7",
+        "productName": "Wireless Gaming Mouse",
+        "currentStock": 0,
+        "timestamp": "2024-11-03T09:20:00Z"
+      }
+    ]
+  },
+  "userAnalytics": {
+    "totalUsers": 1234,
+    "activeUsers": 567,
+    "newUsersThisMonth": 89,
+    "userGrowthRate": 12.5,
+    "demographics": {
+      "ageGroups": [
+        { "range": "18-24", "count": 234, "percentage": 19.0 },
+        { "range": "25-34", "count": 456, "percentage": 37.0 },
+        { "range": "35-44", "count": 345, "percentage": 28.0 },
+        { "range": "45-54", "count": 123, "percentage": 10.0 },
+        { "range": "55+", "count": 76, "percentage": 6.0 }
+      ],
+      "locations": [
+        { "state": "California", "count": 234, "percentage": 19.0 },
+        { "state": "New York", "count": 198, "percentage": 16.0 },
+        { "state": "Texas", "count": 156, "percentage": 12.6 },
+        { "state": "Florida", "count": 123, "percentage": 10.0 },
+        { "state": "Illinois", "count": 98, "percentage": 7.9 }
+      ]
+    },
+    "engagement": {
+      "averageSessionDuration": "4:32",
+      "pagesPerSession": 3.2,
+      "bounceRate": 45.6,
+      "returnVisitorRate": 42.3
+    }
+  }
+}

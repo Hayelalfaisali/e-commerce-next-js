@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "john.doe@example.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "avatar": "/images/avatars/john-doe.jpg",
+      "role": "customer",
+      "isActive": true,
+      "joinDate": "2023-01-15",
+      "lastLogin": "2024-11-04T10:30:00Z",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "phone": "+1-555-0123",
+      "preferences": {
+        "newsletter": true,
+        "notifications": true,
+        "theme": "light"
+      },
+      "stats": {
+        "totalOrders": 12,
+        "totalSpent": 1249.88,
+        "favoriteCategory": "electronics"
+      }
+    },
+    {
+      "id": "2",
+      "email": "jane.smith@example.com",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "avatar": "/images/avatars/jane-smith.jpg",
+      "role": "customer",
+      "isActive": true,
+      "joinDate": "2023-03-22",
+      "lastLogin": "2024-11-03T15:45:00Z",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90210",
+        "country": "USA"
+      },
+      "phone": "+1-555-0456",
+      "preferences": {
+        "newsletter": false,
+        "notifications": true,
+        "theme": "dark"
+      },
+      "stats": {
+        "totalOrders": 8,
+        "totalSpent": 567.43,
+        "favoriteCategory": "clothing"
+      }
+    },
+    {
+      "id": "3",
+      "email": "admin@shophub.com",
+      "firstName": "Admin",
+      "lastName": "User",
+      "avatar": "/images/avatars/admin.jpg",
+      "role": "admin",
+      "isActive": true,
+      "joinDate": "2022-01-01",
+      "lastLogin": "2024-11-04T09:00:00Z",
+      "address": {
+        "street": "789 Admin Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "USA"
+      },
+      "phone": "+1-555-0789",
+      "preferences": {
+        "newsletter": true,
+        "notifications": true,
+        "theme": "light"
+      },
+      "stats": {
+        "totalOrders": 0,
+        "totalSpent": 0,
+        "favoriteCategory": null
+      }
+    },
+    {
+      "id": "4",
+      "email": "mike.johnson@example.com",
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "avatar": "/images/avatars/mike-johnson.jpg",
+      "role": "customer",
+      "isActive": false,
+      "joinDate": "2023-06-10",
+      "lastLogin": "2024-10-15T12:20:00Z",
+      "address": {
+        "street": "321 Pine St",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      },
+      "phone": "+1-555-0321",
+      "preferences": {
+        "newsletter": true,
+        "notifications": false,
+        "theme": "light"
+      },
+      "stats": {
+        "totalOrders": 3,
+        "totalSpent": 189.97,
+        "favoriteCategory": "sports"
+      }
+    }
+  ]
+}
