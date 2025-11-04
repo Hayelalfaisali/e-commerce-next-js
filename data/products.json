@@ -33,10 +33,10 @@
       "price": 99.99,
       "originalPrice": 129.99,
       "description": "Premium wireless headphones with noise cancellation and 30-hour battery life.",
-      "image": "/images/products/headphones-1.jpg",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/headphones-1.jpg",
-        "/images/products/headphones-1-alt.jpg"
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 25,
@@ -61,10 +61,10 @@
       "price": 249.99,
       "originalPrice": 299.99,
       "description": "Advanced fitness tracking with heart rate monitor, GPS, and 7-day battery life.",
-      "image": "/images/products/watch-1.jpg",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/watch-1.jpg",
-        "/images/products/watch-1-alt.jpg"
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 15,
@@ -90,10 +90,10 @@
       "price": 29.99,
       "originalPrice": 39.99,
       "description": "Soft, comfortable 100% organic cotton t-shirt perfect for everyday wear.",
-      "image": "/images/products/tshirt-1.jpg",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/tshirt-1.jpg",
-        "/images/products/tshirt-1-alt.jpg"
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 50,
@@ -118,10 +118,10 @@
       "price": 89.99,
       "originalPrice": 120.00,
       "description": "Premium denim jeans with perfect fit and modern styling.",
-      "image": "/images/products/jeans-1.jpg",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/jeans-1.jpg",
-        "/images/products/jeans-1-alt.jpg"
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 30,
@@ -146,10 +146,10 @@
       "price": 149.99,
       "originalPrice": 199.99,
       "description": "1080p HD security camera with night vision, motion detection, and mobile app control.",
-      "image": "/images/products/camera-1.jpg",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/camera-1.jpg",
-        "/images/products/camera-1-alt.jpg"
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 20,
@@ -175,10 +175,10 @@
       "price": 129.99,
       "originalPrice": 159.99,
       "description": "High-performance running shoes with advanced cushioning and breathable design.",
-      "image": "/images/products/shoes-1.jpg",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/shoes-1.jpg",
-        "/images/products/shoes-1-alt.jpg"
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 40,
@@ -204,10 +204,10 @@
       "price": 79.99,
       "originalPrice": 99.99,
       "description": "High-precision wireless gaming mouse with RGB lighting and programmable buttons.",
-      "image": "/images/products/mouse-1.jpg",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/mouse-1.jpg",
-        "/images/products/mouse-1-alt.jpg"
+        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&h=500&fit=crop"
       ],
       "inStock": false,
       "stockCount": 0,
@@ -233,10 +233,10 @@
       "price": 49.99,
       "originalPrice": 69.99,
       "description": "Non-slip premium yoga mat with extra cushioning and eco-friendly materials.",
-      "image": "/images/products/yoga-mat-1.jpg",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=500&fit=crop",
       "images": [
-        "/images/products/yoga-mat-1.jpg",
-        "/images/products/yoga-mat-1-alt.jpg"
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1506629905607-d9b1b2e3d8d6?w=500&h=500&fit=crop"
       ],
       "inStock": true,
       "stockCount": 35,

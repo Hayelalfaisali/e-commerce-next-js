@@ -66,8 +66,8 @@ export default function Dashboard() {
 
     return (
         <div className="p-6">
-            <DashboardHeader 
-                title="Dashboard Overview" 
+            <DashboardHeader
+                title="Dashboard Overview"
                 subtitle="Welcome to your ShopHub admin panel"
             />
 

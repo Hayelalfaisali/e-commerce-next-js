@@ -188,6 +188,10 @@ export const getAllProducts = (): Product[] => {
   return products.products as Product[];
 };
 
+export const getCategories = (): Category[] => {
+  return products.categories as Category[];
+};
+
 export const getProductsByCategory = (category: string): Product[] => {
   return (products.products as Product[]).filter((product: Product) => product.category === category);
 };
